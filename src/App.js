@@ -7,7 +7,7 @@ import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Services from "./pages/Services";
-import Skills from "./pages/Skills";
+import Work from "./pages/Work";
 import "./App.css";
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="experience" element={<Experience />} />
             <Route path="services" element={<Services />} />
-            <Route path="skills" element={<Skills />} />
+            <Route path="work" element={<Work />} />
           </Route>
         </Routes>
       </BrowserRouter>
