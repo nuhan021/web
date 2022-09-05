@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Services from "./pages/Services";
 import Work from "./pages/Work";
+import Skills from "./pages/Skills";
 import "./App.css";
 function App() {
   return (
