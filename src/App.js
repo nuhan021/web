@@ -4,6 +4,10 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import About from "./pages/About";
+import Experience from "./pages/Experience";
+import Services from "./pages/Services";
+import Skills from "./pages/Skills";
 import "./App.css";
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
             <Route index element={<Home />} />
             <Route path="blog" element={<Blog />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="about" element={<About />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="services" element={<Services />} />
+            <Route path="skills" element={<Skills />} />
           </Route>
         </Routes>
       </BrowserRouter>

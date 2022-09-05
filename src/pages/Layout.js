@@ -14,36 +14,28 @@ const Layout = () => {
               <NavLink className='nav_link' to="/"><Icon icon="ant-design:home-filled" /> Home</NavLink>
             </li>
 
-            {/* <li className='nav_li'>
+            <li className='nav_li'>
               <NavLink className='nav_link' to="/about" ><Icon icon="ic:baseline-roundabout-right" /> about</NavLink>
-            </li> */}
+            </li>
 
-            {/* <li className='nav_li'>
-              <NavLink className='nav_link' to="/services"><Icon icon="ic:baseline-design-services" /> services</NavLink>
-            </li> */}
-
-            {/* <li className='nav_li'>
-              <NavLink className='nav_link' to="/skills"><Icon icon="foundation:social-skillshare" /> skills</NavLink>
-            </li> */}
-
-            {/* <li className='nav_li'>
-              <NavLink className='nav_link' to="/education"><Icon icon="zondicons:education" /> education</NavLink>
-            </li> */}
-
-            {/* <li className='nav_li'>
-              <NavLink className='nav_link' to="/experience"><Icon icon="eos-icons:job" /> experience</NavLink>
-            </li> */}
-
-            {/* <li className='nav_li'>
-              <NavLink className='nav_link' to="/work"><Icon icon="ic:baseline-work-history" /> work</NavLink>
-            </li> */}
+            <li className='nav_li'>
+              <NavLink className='nav_link' to="/experience"><iconify-icon icon="eos-icons:job"></iconify-icon>experience</NavLink>
+            </li>
 
             <li className='nav_li'>
               <NavLink className='nav_link' to="/blog"><Icon icon="carbon:blog" /> blog</NavLink>
             </li>
 
             <li className='nav_li'>
+              <NavLink className='nav_link' to="/services"><iconify-icon icon="carbon:cloud-satellite-services"></iconify-icon>services</NavLink>
+            </li>
+            
+            <li className='nav_li'>
               <NavLink className='nav_link' to="/contact"><Icon icon="fluent:contact-card-48-filled" /> Contact</NavLink>
+            </li>
+
+            <li className='nav_li'>
+              <NavLink className='nav_link' to="/skills"><iconify-icon icon="foundation:social-skillshare"></iconify-icon>skills</NavLink>
             </li>
           </ul>
         </nav>
