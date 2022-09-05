@@ -76,3 +76,17 @@ small {
 .nav_ul .nav_li .nav_link iconify-icon {
     padding-right: 10px;
 }
+.icons{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icons iconify-icon{
+    font-size: 25px;
+}
